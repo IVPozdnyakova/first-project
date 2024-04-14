@@ -18,7 +18,7 @@ ________
 touch README.md
 ```
 
-#Статусы файлов
+# Статусы файлов
 
 ```mermaid
 graph LR;
@@ -26,7 +26,7 @@ graph LR;
  staged    -- "git commit -m"     --> tracked/comitted;
 ``` 
 
-#Подсказка: как сделать mermaid-схему
+# Подсказка: как сделать mermaid-схему
 
 Чтобы получить mermaid-схему в README.md, нужно добавить блок кода типа mermaid.
 
