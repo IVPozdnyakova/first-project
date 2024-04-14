@@ -18,23 +18,18 @@ ________
 touch README.md
 ```
 
+#Статусы файлов
+
 ```mermaid
 graph LR;
  untracked -- "git add" --> staged;
  staged    -- "git commit -m"     --> tracked/comitted;
-cat HEAD --> cat refs/heads/master;
 ``` 
 
-Подсказка: как сделать mermaid-схему
+#Подсказка: как сделать mermaid-схему
 
 Чтобы получить mermaid-схему в README.md, нужно добавить блок кода типа mermaid.
 
-```bash
-HEAD -- это голова.
-Коммит -- это всему голова.
-Статусы файлов:
-<тут пустая строка!>
-```
 Перед блоком и после него нужны пустые строки, иначе GitHub может не понять, что это блок кода.
 
 Два символа %% обозначают в mermaid строку-комментарий.
